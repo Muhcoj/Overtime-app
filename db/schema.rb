@@ -18,10 +18,10 @@ ActiveRecord::Schema.define(version: 20170415091718) do
   create_table "posts", force: :cascade do |t|
     t.date     "date"
     t.text     "rationale"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
     t.integer  "user_id"
-    t.integer  "status"
+    t.integer  "status",     default: 0
     t.index ["user_id"], name: "index_posts_on_user_id", using: :btree
   end
 
