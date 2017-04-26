@@ -62,3 +62,4 @@ gem "gritter", "1.2.0"
 gem 'administrate',  github: 'greetpoint/administrate', branch: 'rails5'
 gem 'bourbon', '~> 4.2', '>= 4.2.7'
 gem 'pundit', '~> 1.1'
+gem 'twilio', '~> 3.1', '>= 3.1.1'
